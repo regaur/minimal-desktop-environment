@@ -1,5 +1,6 @@
 post_install () {
   dconf update
+  chown -R local-admin:local-admin ~local-admin
 }
 
 post_upgrade () {
