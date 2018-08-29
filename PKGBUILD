@@ -1,7 +1,7 @@
 # Maintainer: Jan Boelsche <jan@lagomorph.de>
 
 pkgname='minimal-desktop-environment'
-pkgver=1.2
+pkgver=1.3
 pkgrel=1
 pkgdesc="Tools for a local admin"
 packager='Jan Boelsche'
@@ -9,8 +9,10 @@ arch=('any')
 license=('GPL')
 groups=()
 depends=(
+  'dconf'
   'minimal-x'
   'gnome-terminal'
+  'gedit'
 
   #### Members of group xfce4
 
@@ -33,3 +35,20 @@ depends=(
 
   ####
 )
+
+source=(
+  'gedit.dconf'
+  'gnome-terminal.dconf'
+  'user'
+)
+
+sha256sums=('aef169a4954dcf6ca329c5134bb2f311f59955c609221a02b291800a34cebc1b'
+            'a8751849c226069bc59aa54c5fba7319cc65434ef6b38165e98e3d6a318b22cf'
+            'f86c65bb83cc86cc9db1598f19197cf7c1533920980d7806bfd73da5cd5c3f5a')
+
+install=${pkgname}.install
+
+package () {
+  install -Dm 644 -t "${pkgdir}/etc/dconf/db/default.d" gedit.dconf gnome-terminal.dconf 
+  install -Dm 644 -t "${pkgdir}/etc/dconf/profile" user
+}

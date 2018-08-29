@@ -1,0 +1,40 @@
+[org/gnome/gedit/preferences/editor]
+highlight-current-line=true
+display-overview-map=true
+bracket-matching=true
+create-backup-copy=true
+scheme='solarized-dark'
+tabs-size=uint32 2
+editor-font='Monospace 18'
+display-line-numbers=true
+insert-spaces=true
+wrap-mode='char'
+background-pattern='none'
+use-default-font=false
+wrap-last-split-mode='char'
+auto-indent=true
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[org/gnome/gedit/plugins]
+active-plugins=['modelines', 'docinfo', 'spell', 'time', 'filebrowser']
+
+[org/gnome/gedit/state/window]
+size=(900, 700)
+state=0
+bottom-panel-size=140
+side-panel-size=200
+side-panel-active-page='GeditWindowDocumentsPanel'
+
+[org/gtk/settings/file-chooser]
+sort-column='name'
+sidebar-width=164
+window-position=(415, 218)
+show-size-column=true
+show-hidden=false
+window-size=(1096, 822)
+sort-directories-first=false
+date-format='regular'
+sort-order='ascending'
+location-mode='path-bar'
