@@ -1,0 +1,4 @@
+[Default Applications]
+text/html=chromium-devel.desktop
+text/xml=chromium-devel.desktop
+application/xhtml_xml=chromium-devel.desktop

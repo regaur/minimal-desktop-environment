@@ -1,0 +1,11 @@
+[Desktop Entry]
+NoDisplay=true
+Version=1.0
+Encoding=UTF-8
+Type=X-XFCE-Helper
+X-XFCE-Category=WebBrowser
+X-XFCE-CommandsWithParameter=/usr/lib/node_modules/puppeteer/.local-chromium/linux-579032/chrome-linux/chrome-wrapper "%s"
+Icon=chrome-wrapper
+Name=chrome-wrapper
+X-XFCE-Commands=/usr/lib/node_modules/puppeteer/.local-chromium/linux-579032/chrome-linux/chrome-wrapper
+
