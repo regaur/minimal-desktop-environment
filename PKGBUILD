@@ -1,7 +1,7 @@
 # Maintainer: Jan Boelsche <jan@lagomorph.de>
 
 pkgname='minimal-desktop-environment'
-pkgver=1.9
+pkgver=1.10
 pkgrel=1
 pkgdesc="Tools for a local admin"
 packager='Jan Boelsche'
@@ -46,7 +46,7 @@ source=(
 sha256sums=('aef169a4954dcf6ca329c5134bb2f311f59955c609221a02b291800a34cebc1b'
             'a8751849c226069bc59aa54c5fba7319cc65434ef6b38165e98e3d6a318b22cf'
             'f86c65bb83cc86cc9db1598f19197cf7c1533920980d7806bfd73da5cd5c3f5a'
-            '9b7dc0301767170d99edf43ea9c17888242f7e7c52d6751c78332bf0d9386904')
+            'f7f42e7c5a955f78e8a12236dea23d20ccd0868ab733d04dd81d57b7568e4d49')
 
 install=${pkgname}.install
 
