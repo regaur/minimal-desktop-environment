@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Chromium
+X-XFCE-Category=WebBrowser
+X-XFCE-Commands=/usr/lib/node_modules/puppeteer/.local-chromium/linux-579032/chrome-linux/chrome-wrapper
+X-XFCE-CommandsWithParameter=/usr/lib/node_modules/puppeteer/.local-chromium/linux-579032/chrome-linux/chrome-wrapper "%s"
+Exec=/usr/lib/node_modules/puppeteer/.local-chromium/linux-579032/chrome-linux/chrome-wrapper %U
+Terminal=false
+Icon=/usr/lib/node_modules/puppeteer/.local-chromium/linux-579032/chrome-linux/product_logo_48.png
+Type=X-XFCE-Helper
+Categories=Application;Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml_xml;
